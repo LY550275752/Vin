@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vin</title>
+</head>
+<body>
+	<div id="app">
+		<input type="text" id="text" v-model="name">
+		<p>{{name}}</p>
+	</div>
+<script type="text/javascript" src="vin.js"></script>
+<script type="text/javascript">
+	var app = new Vin({
+		el:"#app",
+		data:{
+			name:'李烨'
+		}
+	})
+</script>
+</body>
+</html>
